@@ -1,0 +1,108 @@
+
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}*
+
+nav {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+.cta-button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #007B9A;
+}
+
+section {
+    padding: 20px;
+}
+
+#Pricing{
+    background-color: green;
+    padding: 40px;
+    text-align: center;
+} 
+
+
+h2 {
+text-align: center;
+margin-top: 30px;
+}
+
+form {
+max-width: 500px;
+margin: 0 auto;
+background-color: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+} 
+
+input[type="submit"] {
+width: 100%;
+padding: 10px;
+background-color: #4caf50;
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px;
+}
+
+input[type="submit"]:hover {
+background-color: #45a049;
+}
+</style>
+
+
+#h2{
+    color: green;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
